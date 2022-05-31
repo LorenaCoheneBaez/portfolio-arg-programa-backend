@@ -27,7 +27,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://portfolio-frontend-argprograma.web.app/")
 @RestController
 @RequestMapping(value = "/auth/")
 public class UserController {
