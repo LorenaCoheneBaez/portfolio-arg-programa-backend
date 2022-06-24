@@ -6,12 +6,15 @@ import com.backendcohene.portfolio.service.ExperienciaLaboralService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://portfolio-frontend-argprograma.web.app/")
+/**
+ *
+ * @author lore_
+ */
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/experiencia")
 public class ExperienciaLaboralController {

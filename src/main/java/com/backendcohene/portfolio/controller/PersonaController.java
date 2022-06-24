@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://portfolio-frontend-argprograma.web.app/")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/persona")
 public class PersonaController {
